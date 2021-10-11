@@ -7,7 +7,6 @@ import (
 )
 
 func main() {
-	// test
 	db := common.GetDB()
 	db.AutoMigrate(&model.User{})
 	r := gin.Default()
