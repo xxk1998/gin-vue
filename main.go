@@ -13,4 +13,3 @@ func main() {
 	r = CollectRoute(r)
 	r.Run(":9090")
 }
-
