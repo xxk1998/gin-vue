@@ -12,6 +12,7 @@ func InitDB() *gorm.DB {
 	if err != nil {
 		fmt.Println("DB连接失败")
 	}
+
 	return db
 }
 
